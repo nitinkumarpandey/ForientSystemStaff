@@ -11,6 +11,7 @@ import com.forientsystem.staff.common.utils.AppConstants
 import com.forientsystem.staff.common.utils.AppSharedPreferences
 import com.forientsystem.staff.models.DataModel
 import com.forientsystem.staff.models.LoginModel
+import com.google.firebase.iid.FirebaseInstanceId
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity(), NotifyTaskDone {
@@ -48,6 +49,7 @@ class LoginActivity : AppCompatActivity(), NotifyTaskDone {
             return
         }
         map["password"] = encodedPassword
+        map["registerId"] = FirebaseInstanceId.getInstance().token ?: ""
         NetworkConnection(this, LoginModel::class.qualifiedName.toString(), map, this, true).postRequest()
 
     }

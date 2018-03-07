@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "548086789433",
+    "firebase_url": "https://forientsystem-3f10e.firebaseio.com",
+    "project_id": "forientsystem-3f10e",
+    "storage_bucket": "forientsystem-3f10e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548086789433:android:4db0f9800545fe37",
+        "android_client_info": {
+          "package_name": "com.forientsystem.staff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548086789433-jc5j844f5li3f3elm0h65ts4pldtife9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.forientsystem.staff",
+            "certificate_hash": "7f8486f71abe3c0fd637bb0eb37432a6fd4c839e"
+          }
+        },
+        {
+          "client_id": "548086789433-7mic3meg5nm578ke22qvnqrffh5fqnjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhMjzHlf11l_xkfCU7YDzCtcJ_HcNb3_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "548086789433-7mic3meg5nm578ke22qvnqrffh5fqnjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

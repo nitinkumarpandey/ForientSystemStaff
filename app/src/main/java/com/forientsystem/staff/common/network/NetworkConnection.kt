@@ -34,7 +34,7 @@ class NetworkConnection(var context: Context, var modelName: String, private var
             override fun onSuccess(statusCode: Int, headers: Array<out Header>?, responseBody: ByteArray?) {
                 if (statusCode == 200) {
                     val response = responseBody?.toString(Charset.defaultCharset())
-                    println("Response:= " + response)
+                    println("Response:= $response")
                     val gson = Gson()
 
                     val cls = Class.forName(modelName) as Class<DataModel>

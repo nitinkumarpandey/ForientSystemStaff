@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException
  * Created by nitin on 3/1/18.
  */
 object AppConstants {
-    const val DOMAIN = "http://adminmasters.com"
+    const val DOMAIN = "http://www.adminmasters.com"
     const val URL = "${DOMAIN}/webservice/index.php?"
 
     fun md5(s: String): String {
